@@ -11,6 +11,8 @@ $ git config --list
 $ git init
 6.将README加入缓存
 $ git add README.md
+$ git status //查看是否加入缓存
+
 7.提交打tag
 $ git commit -m "first commit"
 8.提交到仓库
@@ -20,5 +22,5 @@ $ git push -u origin master
 
 第二次提交:
 $ git add 要提交的文件
-$ git commit "打tag"
+$ git commit -m "打tag"
 $ git push -u origin master
