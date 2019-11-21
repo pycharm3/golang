@@ -43,4 +43,5 @@ $ git push -u origin master<br>
 第二次提交:<br>
 $ git add 要提交的文件<br>
 $ git commit -m "打tag"<br>
+$ git pull origin master
 $ git push -u origin master<br>
